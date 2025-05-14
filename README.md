@@ -1,262 +1,262 @@
-# 🍑 Anus: Autonomous Networked Utility System
+# 🍑 Anus: 자율 네트워크 유틸리티 시스템
 
 <p align="center">
-  <img src="assets/anus_logo.png" alt="Anus AI Logo" width="200"/>
+  <img src="assets/anus_logo.png" alt="Anus AI 로고" width="200"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/nikmcfly/ANUS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python version"></a>
-  <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
-  <a href="https://github.com/nikmcfly/ANUS/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions welcome"></a>
+  <a href="https://github.com/nikmcfly/ANUS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="라이센스: MIT"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="파이썬 버전"></a>
+  <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="코드 스타일: black"></a>
+  <a href="https://github.com/nikmcfly/ANUS/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="기여 환영"></a>
   <br>
-  <a href="https://github.com/nikmcfly/ANUS/stargazers"><img src="https://img.shields.io/github/stars/nikmcfly/ANUS.svg?style=social&label=Star" alt="GitHub stars"></a>
-  <a href="https://github.com/nikmcfly/ANUS/network/members"><img src="https://img.shields.io/github/forks/nikmcfly/ANUS.svg?style=social&label=Fork" alt="GitHub forks"></a>
-  <a href="https://github.com/nikmcfly/ANUS/issues"><img src="https://img.shields.io/github/issues/nikmcfly/ANUS.svg" alt="GitHub issues"></a>
-  <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-  <a href="https://anus-ai.github.io/docs"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="Documentation Status"></a>
-  <a href="https://t.me/goanus"><img src="https://img.shields.io/badge/Telegram-blue?logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://github.com/nikmcfly/ANUS/stargazers"><img src="https://img.shields.io/github/stars/nikmcfly/ANUS.svg?style=social&label=Star" alt="GitHub 스타"></a>
+  <a href="https://github.com/nikmcfly/ANUS/network/members"><img src="https://img.shields.io/github/forks/nikmcfly/ANUS.svg?style=social&label=Fork" alt="GitHub 포크"></a>
+  <a href="https://github.com/nikmcfly/ANUS/issues"><img src="https://img.shields.io/github/issues/nikmcfly/ANUS.svg" alt="GitHub 이슈"></a>
+  <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs 환영"></a>
+  <a href="https://anus-ai.github.io/docs"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="문서 상태"></a>
+  <a href="https://t.me/goanus"><img src="https://img.shields.io/badge/Telegram-blue?logo=telegram&logoColor=white" alt="텔레그램"></a>
 </p>
 
-## Table of Contents
+## 목차
 
-- [Introduction](#-introduction)
-- [Why Anus?](#-why-anus)
-- [Features & Capabilities](#-features--capabilities)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Usage Examples](#-usage-examples)
-- [Documentation](#-documentation)
-- [Contributing](#-contributing)
-- [Community](#-community)
-- [License](#-license)
+- [소개](#-소개)
+- [왜 Anus인가?](#-왜-anus인가)
+- [기능 및 역량](#-기능-및-역량)
+- [설치](#-설치)
+- [빠른 시작](#-빠른-시작)
+- [사용 예시](#-사용-예시)
+- [문서](#-문서)
+- [기여하기](#-기여하기)
+- [커뮤니티](#-커뮤니티)
+- [라이센스](#-라이센스)
 
-## 🌟 Introduction
+## 🌟 소개
 
-**Anus** (Autonomous Networked Utility System) is a powerful, flexible, and accessible open-source AI agent framework designed to revolutionize task automation. Built with modern AI technologies and best practices, Anus represents the next generation of AI agent frameworks, offering unparalleled capabilities and ease of use.
+**Anus**(Autonomous Networked Utility System)는 작업 자동화를 혁신하기 위해 설계된 강력하고 유연하며 접근하기 쉬운 오픈 소스 AI 에이전트 프레임워크입니다. 최신 AI 기술과 모범 사례를 기반으로 구축된 Anus는 차세대 AI 에이전트 프레임워크를 대표하며, 타의 추종을 불허하는 기능과 사용 용이성을 제공합니다.
 
-Anus empowers users to create AI agents that can:
-- Execute complex tasks through natural language instructions
-- Collaborate in multi-agent environments to solve problems
-- Interact with web services, documents, and code
-- Process multimodal inputs including text, images, and audio
-- Adapt to different domains and use cases
+Anus는 사용자가 다음과 같은 AI 에이전트를 만들 수 있게 합니다:
+- 자연어 지시를 통해 복잡한 작업 실행
+- 다중 에이전트 환경에서 협업하여 문제 해결
+- 웹 서비스, 문서 및 코드와 상호작용
+- 텍스트, 이미지 및 오디오를 포함한 다중 모달 입력 처리
+- 다양한 도메인과 사용 사례에 적응
 
-Whether you're a developer looking to build AI-powered applications, a researcher exploring agent-based systems, or an enthusiast interested in the latest AI technologies, Anus provides the tools and flexibility you need to succeed.
+AI 기반 애플리케이션을 구축하려는 개발자, 에이전트 기반 시스템을 탐구하는 연구자, 또는 최신 AI 기술에 관심 있는 애호가 모두에게 Anus는 성공하는 데 필요한 도구와 유연성을 제공합니다.
 
-## 💡 Why Anus?
+## 💡 왜 Anus인가?
 
-- **Truly Open Source**: No barriers, no invite codes, just pure open-source goodness
-- **Hybrid Architecture**: Combines single-agent simplicity with multi-agent power
-- **Flexible Model Support**: Works with OpenAI models, open-source models, or your own
-- **Comprehensive Tool Ecosystem**: Web automation, document processing, code execution, and more
-- **Community-First Design**: Built for contributions and extensions
-- **Transparent Operation**: Clear explanations of all agent actions and decisions
-- **Cross-Platform**: Works across different operating systems and environments
+- **진정한 오픈 소스**: 장벽 없고, 초대 코드 없이, 순수한 오픈 소스의 장점
+- **하이브리드 아키텍처**: 단일 에이전트의. 단순함과 다중 에이전트의 힘을 결합
+- **유연한 모델 지원**: OpenAI 모델, 오픈 소스 모델 또는 자체 모델과 함께 작동
+- **종합적인 도구 생태계**: 웹 자동화, 문서 처리, 코드 실행 등
+- **커뮤니티 중심 설계**: 기여와 확장을 위해 구축됨
+- **투명한 운영**: 모든 에이전트 행동과 결정에 대한 명확한 설명
+- **크로스 플랫폼**: 다양한 운영 체제와 환경에서 작동
 
-## ✨ Features & Capabilities
+## ✨ 기능 및 역량
 
-### 🧠 Advanced AI Agent Architecture
+### 🧠 고급 AI 에이전트 아키텍처
 
-- **Hybrid Agent System**: Seamlessly switch between single-agent and multi-agent modes based on task complexity
-- **Dynamic Task Planning**: Sophisticated planning system that breaks down complex tasks into manageable steps
-- **Adaptive Resource Allocation**: Intelligently allocates computational resources based on task requirements
-- **Memory Management**: Short-term and long-term memory systems for context retention across conversations
-- **Explainable Actions**: Transparent reasoning and decision-making processes
+- **하이브리드 에이전트 시스템**: 작업 복잡성에 따라 단일 에이전트와 다중 에이전트 모드 간을 원활하게 전환
+- **동적 작업 계획**: 복잡한 작업을 관리 가능한 단계로 분해하는 정교한 계획 시스템
+- **적응형 리소스 할당**: 작업 요구 사항에 따라 계산 리소스를 지능적으로 할당
+- **메모리 관리**: 대화 전반에 걸쳐 컨텍스트 유지를 위한 단기 및 장기 메모리 시스템
+- **설명 가능한 행동**: 투명한 추론 및 의사 결정 프로세스
 
-### 🤝 Multi-Agent Collaboration
+### 🤝 다중 에이전트 협업
 
-- **Specialized Agent Roles**: Pre-defined roles like Researcher, Coder, Planner, and more
-- **Custom Role Creation**: Define your own agent roles with specific capabilities and knowledge
-- **Inter-Agent Communication**: Structured protocols for efficient agent-to-agent communication
-- **Consensus Mechanisms**: Collaborative decision-making through agent voting and consensus
-- **Conflict Resolution**: Sophisticated protocols for resolving disagreements between agents
+- **전문화된 에이전트 역할**: 연구원, 코더, 기획자 등 사전 정의된 역할
+- **사용자 정의 역할 생성**: 특정 기능과 지식을 갖춘 자체 에이전트 역할 정의
+- **에이전트 간 통신**: 효율적인 에이전트 간 통신을 위한 구조화된 프로토콜
+- **합의 메커니즘**: 에이전트 투표 및 합의를 통한 협업적 의사 결정
+- **갈등 해결**: 에이전트 간 의견 불일치를 해결하기 위한 정교한 프로토콜
 
-### 🛠️ Comprehensive Tool Ecosystem
+### 🛠️ 종합적인 도구 생태계
 
-- **Web Interaction**:
-  - Full browser automation via Playwright
-  - Web scraping and data extraction
-  - Form filling and submission
-  - Authentication handling
+- **웹 상호작용**:
+  - Playwright를 통한 전체 브라우저 자동화
+  - 웹 스크래핑 및 데이터 추출
+  - 양식 작성 및 제출
+  - 인증 처리
 
-- **Information Retrieval**:
-  - Search engine integration
-  - Wikipedia access
-  - News and current events sources
-  - Specialized knowledge bases
+- **정보 검색**:
+  - 검색 엔진 통합
+  - 위키피디아 접근
+  - 뉴스 및 시사 소스
+  - 전문 지식 베이스
 
-- **Document Processing**:
-  - PDF parsing and analysis
-  - Office document handling (Word, Excel, PowerPoint)
-  - Image recognition and OCR
-  - Data extraction and transformation
+- **문서 처리**:
+  - PDF 파싱 및 분석
+  - Office 문서 처리(Word, Excel, PowerPoint)
+  - 이미지 인식 및 OCR
+  - 데이터 추출 및 변환
 
-- **Code Execution**:
-  - Secure Python execution sandbox
-  - Multiple language support
-  - Package management
-  - Output capture and analysis
+- **코드 실행**:
+  - 안전한 Python 실행 샌드박스
+  - 다중 언어 지원
+  - 패키지 관리
+  - 출력 캡처 및 분석
 
-- **Multimodal Processing**:
-  - Image analysis and generation
-  - Audio processing and transcription
-  - Video analysis and summarization
-  - Chart and graph interpretation
+- **다중 모달 처리**:
+  - 이미지 분석 및 생성
+  - 오디오 처리 및 전사
+  - 비디오 분석 및 요약
+  - 차트 및 그래프 해석
 
-### 🔄 Flexible Model Integration
+### 🔄 유연한 모델 통합
 
-- **OpenAI API Support**: Seamless integration with GPT-4 and newer models
-- **Open-Source Models**: Support for Llama, Mistral, and other open-source models
-- **Local Deployment**: Run models locally for privacy and reduced costs
-- **Model Switching**: Automatically select the appropriate model based on task requirements
-- **Fallback Mechanisms**: Gracefully handle API issues by switching to alternative models
+- **OpenAI API 지원**: GPT-4 및 최신 모델과의 원활한 통합
+- **오픈 소스 모델**: Llama, Mistral 및 기타 오픈 소스 모델 지원
+- **로컬 배포**: 개인 정보 보호 및 비용 절감을 위한 로컬 모델 실행
+- **모델 전환**: 작업 요구 사항에 따라 적절한 모델 자동 선택
+- **대체 메커니즘**: 대체 모델로 전환하여 API 문제를 우아하게 처리
 
-### 👥 User-Friendly Interfaces
+### 👥 사용자 친화적 인터페이스
 
-- **Command-Line Interface**: Simple and intuitive commands for terminal users
-- **Web Interface**: Optional browser-based dashboard for visual interaction
-- **API Integration**: RESTful API for embedding Anus in other applications
-- **Conversation History**: Review and continue previous conversations
-- **Task Monitoring**: Track progress of long-running tasks
+- **명령줄 인터페이스**: 터미널 사용자를 위한 간단하고 직관적인 명령
+- **웹 인터페이스**: 시각적 상호작용을 위한 선택적 브라우저 기반 대시보드
+- **API 통합**: 다른 응용 프로그램에 Anus를 임베드하기 위한 RESTful API
+- **대화 기록**: 이전 대화 검토 및 계속
+- **작업 모니터링**: 장기 실행 작업의 진행 상황 추적
 
-### 🔒 Privacy and Security
+### 🔒 개인 정보 보호 및 보안
 
-- **Local Execution**: Process sensitive data locally without sending to external APIs
-- **API Key Management**: Secure handling of API keys and credentials
-- **Permission System**: Fine-grained control over agent capabilities
-- **Audit Logging**: Comprehensive logging of all agent actions
-- **Sandboxed Execution**: Secure environment for running untrusted code
+- **로컬 실행**: 외부 API로 보내지 않고 민감한 데이터를 로컬에서 처리
+- **API 키 관리**: API 키 및 자격 증명의 안전한 처리
+- **권한 시스템**: 에이전트 기능에 대한 세분화된 제어
+- **감사 로깅**: 모든 에이전트 행동에 대한 포괄적인 로깅
+- **샌드박스 실행**: 신뢰할 수 없는 코드를 실행하기 위한 안전한 환경
 
-### 🧩 Extensibility
+### 🧩 확장성
 
-- **Plugin System**: Easily extend functionality with custom plugins
-- **Custom Tools**: Create your own tools to expand agent capabilities
-- **Model Adapters**: Add support for new AI models
-- **Middleware**: Insert custom processing steps in the agent workflow
-- **Event Hooks**: React to specific events in the agent lifecycle
+- **플러그인 시스템**: 사용자 정의 플러그인으로 기능을 쉽게 확장
+- **사용자 정의 도구**: 에이전트 기능을 확장하기 위한 자체 도구 생성
+- **모델 어댑터**: 새로운 AI 모델 지원 추가
+- **미들웨어**: 에이전트 워크플로우에 사용자 정의 처리 단계 삽입
+- **이벤트 훅**: 에이전트 수명 주기의 특정 이벤트에 반응
 
-## 🔧 Installation
+## 🔧 설치
 
-Anus AI supports multiple installation methods to accommodate different user preferences and environments.
+Anus AI는 다양한 사용자 선호도와 환경에 맞게 여러 설치 방법을 지원합니다.
 
-### Prerequisites
+### 전제 조건
 
-- Python 3.11 or higher
-- pip (Python package installer)
+- Python 3.11 이상
+- pip (Python 패키지 설치자)
 - Git
 
-### Method 1: Pip Installation (Recommended for Users)
+### 방법 1: Pip 설치 (사용자에게 권장)
 
 ```bash
-# Install from PyPI
+# PyPI에서 설치
 pip install anus-ai
 
-# Verify installation
+# 설치 확인
 anus --version
 ```
 
-### Method 2: From Source (Recommended for Developers)
+### 방법 2: 소스에서 설치 (개발자에게 권장)
 
 ```bash
-# Clone the repository
+# 저장소 복제
 git clone https://github.com/nikmcfly/ANUS.git
 cd ANUS
 
-# Create and activate a virtual environment
+# 가상 환경 생성 및 활성화
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows에서: venv\Scripts\activate
 
-# Install in development mode
+# 개발 모드로 설치
 pip install -e .
 
-# Verify installation
+# 설치 확인
 anus --version
 ```
 
-### Method 3: Using Docker
+### 방법 3: Docker 사용
 
 ```bash
-# Pull the Docker image
+# Docker 이미지 가져오기
 docker pull anusai/anus:latest
 
-# Run Anus in a container
+# 컨테이너에서 Anus 실행
 docker run -it anusai/anus:latest
 ```
 
-### Method 4: Using Conda
+### 방법 4: Conda 사용
 
 ```bash
-# Create a new conda environment
+# 새 conda 환경 생성
 conda create -n anus python=3.11
 conda activate anus
 
-# Install Anus
+# Anus 설치
 pip install anus-ai
 ```
 
-### Platform-Specific Instructions
+### 플랫폼별 지침
 
 #### Windows
 
 ```bash
-# Install required system dependencies
+# 필수 시스템 종속성 설치
 pip install windows-curses
 
-# If using browser automation
+# 브라우저 자동화를 사용하는 경우
 playwright install
 ```
 
 #### macOS
 
 ```bash
-# Install required system dependencies
+# 필수 시스템 종속성 설치
 brew install python@3.11
 
-# If using browser automation
+# 브라우저 자동화를 사용하는 경우
 playwright install
 ```
 
 #### Linux
 
 ```bash
-# Install required system dependencies
+# 필수 시스템 종속성 설치
 sudo apt-get update
 sudo apt-get install -y python3.11 python3.11-venv
 
-# If using browser automation
+# 브라우저 자동화를 사용하는 경우
 playwright install
 ```
 
-### Optional Dependencies
+### 선택적 종속성
 
-Anus has several optional features that require additional dependencies:
+Anus에는 추가 종속성이 필요한 여러 선택적 기능이 있습니다:
 
 ```bash
-# For document processing
+# 문서 처리용
 pip install anus-ai[documents]
 
-# For browser automation
+# 브라우저 자동화용
 pip install anus-ai[browser]
 
-# For code execution
+# 코드 실행용
 pip install anus-ai[code]
 
-# For all optional features
+# 모든 선택적 기능용
 pip install anus-ai[all]
 ```
 
-### Configuration
+### 구성
 
-After installation, you'll need to configure Anus with your API keys:
+설치 후 API 키로 Anus를 구성해야 합니다:
 
-1. Create a configuration file:
+1. 구성 파일 생성:
 
 ```bash
 anus init
 ```
 
-2. Edit the generated `.anus/config.yaml` file with your API keys:
+2. 생성된 `.anus/config.yaml` 파일을 API 키로 편집:
 
 ```yaml
 llm:
@@ -264,195 +264,195 @@ llm:
   api_key: your_openai_api_key
   model: gpt-4o
 
-# Optional: Configure other providers
+# 선택 사항: 다른 제공자 구성
 anthropic:
   api_key: your_anthropic_api_key
 
-# Optional: Configure tool-specific settings
+# 선택 사항: 도구별 설정 구성
 browser:
   headless: true
 ```
 
-## 🚀 Quick Start
+## 🚀 빠른 시작
 
-Once installed, you can start using Anus right away:
+설치 후 바로 Anus를 사용할 수 있습니다:
 
 ```bash
-# Run Anus with a simple task
-anus run "Find the latest news about artificial intelligence"
+# 간단한 작업으로 Anus 실행
+anus run "인공지능에 대한 최신 뉴스 찾기"
 
-# Run in interactive mode
+# 대화형 모드로 실행
 anus interactive
 
-# Run with a specific configuration file
-anus run --config custom_config.yaml "Summarize this article: https://example.com/article"
+# 특정 구성 파일로 실행
+anus run --config custom_config.yaml "이 기사 요약: https://example.com/article"
 ```
 
-## 📋 Usage Examples
+## 📋 사용 예시
 
-### Basic Examples
+### 기본 예시
 
-#### Simple Question Answering
+#### 간단한 질문 응답
 
 ```python
 from anus import Agent
 
-# Create a single agent
+# 단일 에이전트 생성
 agent = Agent()
 
-# Ask a simple question
-response = agent.run("What is the capital of France?")
+# 간단한 질문하기
+response = agent.run("프랑스의 수도는 어디인가요?")
 print(response)
 ```
 
-#### Web Search
+#### 웹 검색
 
 ```python
 from anus import Agent
 from anus.tools import SearchTool
 
-# Create an agent with search capabilities
+# 검색 기능이 있는 에이전트 생성
 agent = Agent(tools=[SearchTool()])
 
-# Search for information
-response = agent.run("Find the latest research on quantum computing")
+# 정보 검색
+response = agent.run("양자 컴퓨팅에 대한 최신 연구 찾기")
 print(response)
 ```
 
-#### Document Analysis
+#### 문서 분석
 
 ```python
 from anus import Agent
 from anus.tools import DocumentTool
 
-# Create an agent with document processing capabilities
+# 문서 처리 기능이 있는 에이전트 생성
 agent = Agent(tools=[DocumentTool()])
 
-# Analyze a PDF document
-response = agent.run("Summarize this PDF: /path/to/document.pdf")
+# PDF 문서 분석
+response = agent.run("이 PDF 요약: /path/to/document.pdf")
 print(response)
 ```
 
-### Advanced Examples
+### 고급 예시
 
-#### Multi-Agent Collaboration
+#### 다중 에이전트 협업
 
 ```python
 from anus import Society, Agent
 
-# Create specialized agents
+# 전문화된 에이전트 생성
 researcher = Agent(role="researcher")
 analyst = Agent(role="analyst")
 writer = Agent(role="writer")
 
-# Create a society of agents
+# 에이전트의 사회 생성
 society = Society(agents=[researcher, analyst, writer])
 
-# Execute a complex task with collaboration
+# 협업을 통한 복잡한 작업 실행
 response = society.run(
-    "Research the impact of artificial intelligence on healthcare, " 
-    "analyze the findings, and write a comprehensive report"
+    "인공지능이 의료에 미치는 영향을 연구하고, " 
+    "결과를 분석하고, 종합적인 보고서 작성"
 )
 print(response)
 ```
 
-#### Browser Automation
+#### 브라우저 자동화
 
 ```python
 from anus import Agent
 from anus.tools import BrowserTool
 
-# Create an agent with browser capabilities
+# 브라우저 기능이 있는 에이전트 생성
 agent = Agent(tools=[BrowserTool()])
 
-# Perform a web task
+# 웹 작업 수행
 response = agent.run(
-    "Go to weather.com, check the weather forecast for New York City for the next 5 days, "
-    "and create a summary table"
+    "weather.com에 가서 뉴욕시의 향후 5일 날씨 예보를 확인하고, "
+    "요약 표를 만드세요"
 )
 print(response)
 ```
 
-#### Code Generation and Execution
+#### 코드 생성 및 실행
 
 ```python
 from anus import Agent
 from anus.tools import CodeTool
 
-# Create an agent with code execution capabilities
+# 코드 실행 기능이 있는 에이전트 생성
 agent = Agent(tools=[CodeTool()])
 
-# Generate and execute code
+# 코드 생성 및 실행
 response = agent.run(
-    "Create a Python script that generates a fractal tree visualization using matplotlib"
+    "matplotlib을 사용하여 프랙탈 트리 시각화를 생성하는 Python 스크립트 생성"
 )
 print(response)
 ```
 
-### Command-Line Interface Examples
+### 명령줄 인터페이스 예시
 
-#### Running Tasks
+#### 작업 실행
 
 ```bash
-# Simple information retrieval
-anus run "What is the population of Tokyo?"
+# 간단한 정보 검색
+anus run "도쿄의 인구는 얼마인가요?"
 
-# Web search with specific parameters
-anus run --search-depth=3 "Find recent breakthroughs in fusion energy research"
+# 특정 매개변수가 있는 웹 검색
+anus run --search-depth=3 "핵융합 에너지 연구의 최근 돌파구 찾기"
 
-# Document processing
-anus run --file=/path/to/report.pdf "Extract all financial data from this report"
+# 문서 처리
+anus run --file=/path/to/report.pdf "이 보고서에서 모든 재무 데이터 추출"
 ```
 
-#### Interactive Mode
+#### 대화형 모드
 
 ```bash
-# Start interactive session
+# 대화형 세션 시작
 anus interactive
 
-# In interactive mode, you can have a conversation:
-# > Tell me about the history of artificial intelligence
-# > Now create a timeline of major AI milestones
-# > Generate a visualization of this timeline
+# 대화형 모드에서 대화할 수 있습니다:
+# > 인공지능의 역사에 대해 알려주세요
+# > 이제 주요 AI 이정표의 타임라인을 만들어주세요
+# > 이 타임라인의 시각화를 생성해주세요
 ```
 
-#### Multi-Agent Mode
+#### 다중 에이전트 모드
 
 ```bash
-# Run a complex task with multiple agents
-anus run --mode=multi "Research, analyze, and summarize the current state of renewable energy technologies"
+# 여러 에이전트로 복잡한 작업 실행
+anus run --mode=multi "재생 에너지 기술의 현재 상태를 연구, 분석 및 요약"
 
-# Specify particular agent roles
-anus run --mode=multi --roles=researcher,analyst,writer "Create a comprehensive market analysis for electric vehicles"
+# 특정 에이전트 역할 지정
+anus run --mode=multi --roles=researcher,analyst,writer "전기 자동차에 대한 포괄적인 시장 분석 생성"
 ```
 
-### API Usage
+### API 사용
 
 ```python
 from anus.api import AnusAPI
 
-# Initialize the API client
+# API 클라이언트 초기화
 api = AnusAPI(api_key="your_api_key")
 
-# Send a request
+# 요청 보내기
 response = api.process_task(
-    task="Generate a business plan for a sustainable fashion startup",
+    task="지속 가능한 패션 스타트업을 위한 비즈니스 계획 생성",
     mode="multi",
     output_format="markdown"
 )
 
-# Print or save the response
+# 응답 출력 또는 저장
 print(response.result)
 with open("business_plan.md", "w") as f:
     f.write(response.result)
 ```
 
-### Advanced Configuration
+### 고급 구성
 
 ```python
 from anus import Agent, Config
 
-# Create a custom configuration
+# 사용자 정의 구성 생성
 config = Config(
     llm={
         "provider": "anthropic",
@@ -469,99 +469,99 @@ config = Config(
     }
 )
 
-# Create an agent with custom configuration
+# 사용자 정의 구성으로 에이전트 생성
 agent = Agent(config=config)
 
-# Run a task
-response = agent.run("Create an interactive data visualization for climate change data")
+# 작업 실행
+response = agent.run("기후 변화 데이터를 위한 대화형 데이터 시각화 생성")
 print(response)
 ```
 
-## 📚 Documentation
+## 📚 문서
 
-For detailed documentation, visit our [Documentation Site](https://anus-ai.github.io/docs).
+자세한 문서는 [문서 사이트](https://anus-ai.github.io/docs)를 방문하세요.
 
-- [Installation Guide](https://anus-ai.github.io/docs/installation)
-- [Getting Started](https://anus-ai.github.io/docs/getting-started)
-- [Architecture Overview](https://anus-ai.github.io/docs/architecture)
-- [API Reference](https://anus-ai.github.io/docs/api)
-- [Examples](https://anus-ai.github.io/docs/examples)
-- [Contributing Guide](https://anus-ai.github.io/docs/contributing)
+- [설치 가이드](https://anus-ai.github.io/docs/installation)
+- [시작하기](https://anus-ai.github.io/docs/getting-started)
+- [아키텍처 개요](https://anus-ai.github.io/docs/architecture)
+- [API 참조](https://anus-ai.github.io/docs/api)
+- [예시](https://anus-ai.github.io/docs/examples)
+- [기여 가이드](https://anus-ai.github.io/docs/contributing)
 
-## 👥 Contributing
+## 👥 기여하기
 
-We welcome contributions from the community! Anus is designed to be community-driven, and your input helps make it better for everyone.
+커뮤니티의 기여를 환영합니다! Anus는 커뮤니티 중심으로 설계되었으며, 여러분의 의견은 모두에게 더 나은 프로젝트를 만드는 데 도움이 됩니다.
 
-### Ways to Contribute
+### 기여 방법
 
-- **Code Contributions**: Implement new features, fix bugs, or improve performance
-- **Documentation**: Improve or expand documentation, add examples, fix typos
-- **Bug Reports**: Report bugs or suggest improvements
-- **Feature Requests**: Suggest new features or enhancements
-- **Community Support**: Help answer questions and support other users
+- **코드 기여**: 새로운 기능 구현, 버그 수정 또는 성능 향상
+- **문서화**: 문서 개선 또는 확장, 예시 추가, 오타 수정
+- **버그 신고**: 버그 신고 또는 개선 제안
+- **기능 요청**: 새로운 기능 또는 개선 사항 제안
+- **커뮤니티 지원**: 질문에 답변하고 다른 사용자 지원
 
-### Getting Started with Contributing
+### 기여 시작하기
 
-1. **Fork the Repository**
+1. **저장소 포크**
 
 ```bash
-# Fork the repository on GitHub, then clone your fork
+# GitHub에서 저장소를 포크한 다음 포크를 복제
 git clone https://github.com/your-username/anus.git
 cd anus
 ```
 
-2. **Set Up Development Environment**
+2. **개발 환경 설정**
 
 ```bash
-# Create and activate a virtual environment
+# 가상 환경 생성 및 활성화
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows에서: venv\Scripts\activate
 
-# Install development dependencies
+# 개발 종속성 설치
 pip install -e ".[dev]"
 ```
 
-3. **Create a Branch**
+3. **브랜치 생성**
 
 ```bash
-# Create a branch for your contribution
+# 기여를 위한 브랜치 생성
 git checkout -b feature/your-feature-name
 ```
 
-4. **Make Your Changes**
+4. **변경 사항 적용**
 
-- Follow the code style guidelines
-- Add tests for new functionality
-- Update documentation as needed
+- 코드 스타일 가이드라인 준수
+- 새로운 기능에 대한 테스트 추가
+- 필요한 경우 문서 업데이트
 
-5. **Run Tests**
+5. **테스트 실행**
 
 ```bash
-# Run the test suite
+# 테스트 스위트 실행
 pytest
 
-# Run linting
+# 린팅 실행
 flake8
 mypy anus
 ```
 
-6. **Submit a Pull Request**
+6. **풀 리퀘스트 제출**
 
-- Push your changes to your fork
-- Submit a pull request from your branch to our main branch
-- Provide a clear description of the changes and any related issues
+- 변경 사항을 포크에 푸시
+- 브랜치에서 메인 브랜치로 풀 리퀘스트 제출
+- 변경 사항과 관련된 이슈에 대한 명확한 설명 제공
 
-### Code Style Guidelines
+### 코드 스타일 가이드라인
 
-- Follow [PEP 8](https://pep8.org/) for Python code style
-- Use type hints for all function parameters and return values
-- Write docstrings for all functions, classes, and modules
-- Keep functions focused and small (under 50 lines when possible)
-- Use meaningful variable and function names
+- Python 코드 스타일을 위해 [PEP 8](https://pep8.org/) 준수
+- 모든 함수 매개변수 및 반환 값에 타입 힌트 사용
+- 모든 함수, 클래스 및 모듈에 대한 문서 문자열 작성
+- 함수를 집중적이고 작게 유지(가능한 경우 50줄 미만)
+- 의미 있는 변수 및 함수 이름 사용
 
-### Commit Message Guidelines
+### 커밋 메시지 가이드라인
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+[Conventional Commits](https://www.conventionalcommits.org/) 사양을 따릅니다:
 
 ```
 <type>(<scope>): <description>
@@ -571,36 +571,36 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) speci
 [optional footer(s)]
 ```
 
-Types include:
-- `feat`: A new feature
-- `fix`: A bug fix
-- `docs`: Documentation changes
-- `style`: Code style changes (formatting, etc.)
-- `refactor`: Code changes that neither fix bugs nor add features
-- `test`: Adding or modifying tests
-- `chore`: Changes to the build process or auxiliary tools
+타입에는 다음이 포함됩니다:
+- `feat`: 새로운 기능
+- `fix`: 버그 수정
+- `docs`: 문서 변경
+- `style`: 코드 스타일 변경(서식 지정 등)
+- `refactor`: 버그를 수정하거나 기능을 추가하지 않는 코드 변경
+- `test`: 테스트 추가 또는 수정
+- `chore`: 빌드 프로세스 또는 보조 도구 변경
 
-### Pull Request Process
+### 풀 리퀘스트 프로세스
 
-1. Update the README.md or documentation with details of changes if appropriate
-2. Update the CHANGELOG.md with details of changes
-3. The PR should work for Python 3.11 and above
-4. PRs require approval from at least one maintainer
-5. Once approved, a maintainer will merge your PR
+1. 적절한 경우 변경 사항에 대한 세부 정보로 README.md 또는 문서 업데이트
+2. 변경 사항에 대한 세부 정보로 CHANGELOG.md 업데이트
+3. PR은 Python 3.11 이상에서 작동해야 함
+4. PR은 최소 한 명의 관리자의 승인이 필요함
+5. 승인되면 관리자가 PR을 병합함
 
-### Code of Conduct
+### 행동 강령
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+이 프로젝트는 [기여자 행동 강령](CODE_OF_CONDUCT.md)과 함께 제공됩니다. 이 프로젝트에 참여함으로써 귀하는 해당 조건을 준수하는 데 동의합니다.
 
-## 🌐 Community
+## 🌐 커뮤니티
 
-Join our community to get help, share ideas, and contribute to the project:
+도움을 받고, 아이디어를 공유하고, 프로젝트에 기여하기 위해 커뮤니티에 가입하세요:
 
-- [Telegram Channel](https://t.me/goanus)
+- [텔레그램 채널](https://t.me/goanus)
 
-## 📝 License
+## 📝 라이센스
 
-Anus is released under the [MIT License](LICENSE).
+Anus는 [MIT 라이센스](LICENSE)로 출시됩니다.
 
 ```
 MIT License
