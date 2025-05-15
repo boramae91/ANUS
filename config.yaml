@@ -1,4 +1,17 @@
 # ANUS Configuration File
+llm:
+  provider: openai
+  api_key: "${OPENAI_API_KEY}"
+  model: gpt-4o
+
+# 선택 사항: 다른 제공자 구성
+anthropic:
+  api_key: your_anthropic_api_key
+
+# 선택 사항: 도구별 설정 구성
+browser:
+  headless: true
+
 
 model:
   provider: openai
